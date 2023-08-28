@@ -1,2 +1,10 @@
 
 /* Your CSS Code here. */
+.scaled-button {
+  transition: transform 0.2s ease-in-out; /* Add a smooth transition */
+}
+
+/* When hovering over a scaled button, increase its size */
+.scaled-button:hover {
+  transform: scale(1.5); /* Increase size by 20% */
+}
